@@ -1,8 +1,8 @@
 # Back_test_API_Binance
 
-Read this in other languages: [English](link do readme em inglês)
+Read this in other languages: [English](https://github.com/Kalienel/back_test_API_Binance/blob/main/README.en.md)
 
-Essa ferramenta foi desenvolvida para calcular possíveis retornos em qualquer par de moedas da Binance com estratégias utilizazndo indicadores de análise técnica do módulo TA do Python
+Essa ferramenta foi desenvolvida para calcular possíveis retornos em qualquer par de moedas da Binance com estratégias utilizando indicadores de análise técnica do módulo [TA](https://technical-analysis-library-in-python.readthedocs.io/en/latest/)  do Python
 
 ### Requirements
 - Pandas
@@ -15,7 +15,7 @@ Essa ferramenta foi desenvolvida para calcular possíveis retornos em qualquer p
 ### Funções de preparação
 
 A função market_data puxa os dados especificados diretamente da API da Binance e retorna um dataframe tratado com as informações dos candlesticks
-A load_market pega os dados da merket_data e adiciona os indicadores que devem ser visualizados, já vindo EMA 9, EMA 26 e RSI 7 por padrão, buscando dados a nível diário
+A load_market pega os dados da market_data e adiciona os indicadores que devem ser visualizados, já vindo EMA 9, EMA 26 e RSI 7 por padrão, buscando dados a nível diário
 plot_market busca os dados da load_market e plota as informações, ela também pode receber uma lista de momentos de compra e venda, output da função back_test
 
 
