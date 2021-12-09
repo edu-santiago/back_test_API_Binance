@@ -27,7 +27,7 @@ Seu funcionamento é baseado na iteração por período de tempo, aplicando a es
 
 Por fim ela retorna um CSV que pode ser analisado como o usuário desejar
 
-![Dataframe fnial](https://github.com/Kalienel/back_test_API_Binance/blob/main/back_test.PNG)
+![Dataframe final](https://github.com/Kalienel/back_test_API_Binance/blob/main/back_test.PNG)
 
 ## Orders
 
@@ -39,4 +39,4 @@ Esse notebook retorna três dataframes
 O propósito dessa função é ser utilizada futuramente para automatizar a criação de ordens de compra e venda tanto para cumprir o backtest anterior como market making
 Ela também retorna um csv com todas essas informações do livro de ordens
 
-![Dataframe fnial](https://github.com/Kalienel/back_test_API_Binance/blob/main/orders.PNG)
+![Lista de ordens](https://github.com/Kalienel/back_test_API_Binance/blob/main/orders.PNG)
