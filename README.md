@@ -26,3 +26,5 @@ A função back_test recebe do load_market o dataframe com preços e indicadores
 Seu funcionamento é baseado na iteração por período de tempo, aplicando a estratégia tomando cada ponto de dado como um momento inicial e identificando o lucro se o investimento tivesse sido feito em cada cada disponível.
 
 Por fim ela retorna um CSV que pode ser analisado como o usuário desejar
+
+![Dataframe fnial](https://github.com/Kalienel/back_test_API_Binance/blob/main/back_test.PNG)
