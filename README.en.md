@@ -26,3 +26,17 @@ The back_test function receives load_market and the dataframe with prices, indic
 It works based on iteration of the trading logic, applying the np.where strategy to every data point and recording the returns if the investment was made in each moment of coins lifespan on Binance.
 
 In the end it also returns a csv that can be analyzed any way the user desired
+
+![Final dataframe](https://github.com/Kalienel/back_test_API_Binance/blob/main/back_test.PNG)
+
+## Orders
+
+This notebook returns 3 dataframes
+- All buy and sell orders
+- Only bids
+- Only asks
+
+The purpose of this function is to be used to automate order creation based on previous backtest and market making
+It also returns a csv with all order book information
+
+![Order book](https://github.com/Kalienel/back_test_API_Binance/blob/main/orders.PNG)
